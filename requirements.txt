@@ -1,0 +1,27 @@
+# 基础依赖
+typing-extensions>=4.5.0
+wheel>=0.40.0
+setuptools>=65.5.0
+
+# SQLAlchemy 相关
+SQLAlchemy>=2.0.15
+greenlet>=2.0.0
+
+# Alembic 相关
+alembic>=1.11.1
+Mako>=1.2.0
+
+# 数据库驱动
+psycopg2-binary==2.9.10
+
+# FastAPI 相关
+fastapi>=0.95.0
+uvicorn>=0.21.0
+pydantic>=1.10.0
+
+# 工具包
+python-dotenv>=1.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+bcrypt>=4.0.1
